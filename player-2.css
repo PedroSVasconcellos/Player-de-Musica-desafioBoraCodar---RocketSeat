@@ -1,0 +1,33 @@
+.player-2 {
+  width: max-content;
+  height: max-content;
+  background-color: #2a2141;
+  border-radius: 9.6px;
+  display: flex;
+  flex-direction: column;
+  padding: 28.8px;
+  gap: 28.8px;
+}
+
+.little-img img {
+  width: 85px;
+}
+
+.title-player-2 {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-2 .player-icons {
+  justify-content: space-evenly;
+}
+
+.player-2 .music-bar::before {
+  width: 284px;
+}
+
+.player-2 .music-bar::after {
+  width: 250px;
+}

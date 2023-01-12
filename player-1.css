@@ -1,0 +1,63 @@
+.player-1 {
+  width: max-content;
+  background-color: #2a2141;
+  border-radius: 9.6px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 38px;
+  gap: 28.8px;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.music {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.artist {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: hsl(240, 9%, 89%, 0.67);
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer p {
+  color: hsl(240, 7%, 78%, 0.7);
+  font-size: 0.9rem;
+}
+
+.player-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.music-bar::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 190px;
+  border-radius: 5px;
+  background-color: rgb(217, 217, 217, 0.3);
+}
+
+.music-bar::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 165px;
+  border-radius: 5px;
+  background-color: rgb(217, 217, 217, 0.7);
+}
+
+.music-bar {
+  margin-bottom: 16px;
+}
